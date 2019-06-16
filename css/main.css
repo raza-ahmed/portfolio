@@ -1,0 +1,232 @@
+/* 
+ * Author     : Vee W.
+*/
+html,
+body {
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: #000;}
+
+    a:hover {
+    text-decoration: none;
+    color: #000;}
+
+p{
+  color: #575757;
+}
+.footer-wrap {
+    background: rgba(210, 210, 210, 0.4);
+    font-size: 0.75rem;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.footer-wrap p {
+    color: #aaa;
+    line-height: 40px;
+    margin: 0;
+}
+
+.footer-container {
+    text-align: center;
+    padding-top: 2.4rem;
+}
+
+.footer-container ul li {
+    display: inline;
+}
+
+.footer-container ul li a {
+  font-size: 1rem;
+  color: #575757;
+  text-decoration: none;
+
+}
+.footer-container ul li a:hover{
+  color: #000;
+  border-bottom: 2px solid #000;
+
+}
+
+.footer-container ul li:not(:last-child):after {
+    content: "·";
+    padding: 0px 0.35em 0px 0.5em;
+}
+
+.home-page-feature-thumbnails img.img-fluid {
+    margin: 0 auto;
+}
+
+
+.heading-text {
+    font-weight: 500;
+    font-size: 2.2rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+    line-height: 1.3em;
+    color: #575757;
+    padding: 30px;
+}
+
+
+.nav-right-text ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+}
+
+.nav-right-text ul li a{
+    color: #575757;
+    text-decoration: none;
+  }
+.nav-right-text ul li a:hover{
+  color: #000 !important;
+  border-bottom: 2px solid #000;
+  }
+
+.portfolio-container {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    transition: all .15s ease-in;
+    -moz-transition: all .15s ease-in;
+    -webkit-transition: all .15s ease-in;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.portfolio-container:hover {
+    cursor: pointer;
+    box-shadow: 0 7px 14px rgba(50, 50, 93, .2), 0 3px 6px rgba(0, 0, 0, .18)
+}
+
+.portfolio-container h4 {
+    padding: 1.2rem 1.5rem 0;
+    line-height: 1.6rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+
+.portfolio-container p {
+    opacity: 0.54;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: .8rem;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.padding-top-btm15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cell-selected { 
+  color: #000 !important;
+  border-bottom: 2px solid #000;
+}
+
+.detail-container{
+  padding:20px 100px 0px 100px;
+  text-align: justify;
+  line-height: 1.8rem;
+}
+.detail-container h4{
+margin-bottom: 0;
+margin-top: 60px;
+}
+
+.portfolio-container p span{
+  color: #000;
+}
+
+.photo-container{
+  margin-bottom: 20px;
+}
+.photo-container img{
+  width: 100%;
+    height: auto;
+    max-width: 900px;
+}
+.external-link{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+.external-link:hover{
+  text-decoration: underline;
+}
+.external-link span{
+  text-decoration: none;
+  padding-left: 5px;
+}
+.heading-text span{
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+/* Media Query codes starts here*/
+@media(max-width: 767px){
+  .heading-text{
+    font-size: 1.5rem;
+      padding: 10px;
+
+  }
+  .portfolio-container h4 {
+    padding: 1rem 1rem 0;
+    line-height: 1.4rem;
+    margin-bottom: .2rem;
+    font-size: 1.2rem;
+}
+.portfolio-container p {
+    font-size: .9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .8rem;
+    line-height: 1.2rem;
+  }
+   
+   .nav-right-text ul li {
+    padding-right: 8px;
+    font-size: .9rem;
+} 
+
+ .nav-right-text ul{
+    margin-block-start: 0;
+    padding-inline-start: 0;
+ } 
+ .navbar-brand {
+  margin-right: .9rem;
+    font-size: 1rem;
+} 
+.detail-container{
+      padding: 20px 20px 0px 20px;
+}
+.detail-container h4{
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+.footer-container{
+  padding-top: 1rem;
+}
+.footer-container ul{
+  padding-top: 1rem;
+  padding-inline-start: 0px;
+}
+}
+
